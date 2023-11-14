@@ -13,7 +13,7 @@ dic = {0: 'Centromere',
        4: 'Homogen',
        5: 'Nucleolar'}
 
-model = load_model('hep-2.h5')
+model = load_model('Cendekia-pest-97.24.h5')
 
 def predict_label(img_path):
     i = image.load_img(img_path, target_size=(128, 128))  # Mengubah target_size menjadi (128, 128)
